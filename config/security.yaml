@@ -1,0 +1,6 @@
+security:
+    encoders:
+      Perso\UserBundle\Entity\User:
+        algorithm: sha512
+        encode-as-base64: true
+        iterations: 10
